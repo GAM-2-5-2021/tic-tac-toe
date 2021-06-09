@@ -44,7 +44,7 @@ while run:
             run = False
 
     if event.type == pygame.KEYDOWN:
-            if event.key == pygame.K_SPACE:
+            if event.key == pygame.K_BACKSPACE:
                 prvo_slobodno = True
                 drugo_slobodno = True
                 trece_slobodno = True
