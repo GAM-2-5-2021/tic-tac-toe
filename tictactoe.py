@@ -68,13 +68,6 @@ while run:
                 sedmo_polje = pygame.draw.rect(screen, (255, 255, 255), (0, 340, 160, 160))
                 osmo_polje = pygame.draw.rect(screen, (255, 255, 255), (170, 340, 160, 160))
                 deveto_polje = pygame.draw.rect(screen, (255, 255, 255), (340, 340, 160, 160))
-    #screen.fill((255,255,255))
-    #font = pygame.font.SysFont('Arial', 20)
-    #text = font.render('Križić-Kružić', True, (0, 0, 0), (255, 255, 255))
-    #textRect = text.get_rect()
-    #textRect.center = (250, 100)
-    #screen.fill((255, 255, 255))
-    #screen.blit(text, textRect)
 
     if event.type == pygame.MOUSEBUTTONUP:
             pozicija = pygame.mouse.get_pos()
